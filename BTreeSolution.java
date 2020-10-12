@@ -70,7 +70,7 @@ class BTreeNode {
 
 		// Find the first key greater than or equal to k 
 		int i = 0; 
-		while (i < n && k > keys[i]){ 
+		while (i < n && k > keys[i]) 
 			i++; 
 
 		// If the found key is equal to k, return this node 
@@ -85,4 +85,5 @@ class BTreeNode {
 		return C[i].search(k); 
 
 	} 
-} 
+}
+
