@@ -15,6 +15,6 @@ public class Graphics extends JFrame
     }
 
     public void paint(Graphics g){
-        g.fillOval(100,100,200,200);
+     //   g.fillOval(100,100,200,200);
     }
 }
